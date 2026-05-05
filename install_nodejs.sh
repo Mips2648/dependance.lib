@@ -171,9 +171,9 @@ else
 		elif [[ $NODE_MAJOR == "18" ]]; then
 			armVer="18.20.8"
 		elif [[ $NODE_MAJOR == "20" ]]; then
-			armVer="20.20.0"
+			armVer="20.20.2"
 		elif [[ $NODE_MAJOR == "22" ]]; then
-			armVer="22.22.0"
+			armVer="22.22.2"
 		fi
 		echo "$(t "Jeedom Mini ou Raspberry 1, 2 ou zéro détecté, non supporté mais on essaye l'utilisation du paquet non-officiel") v${armVer} $(t "pour") armv6l"
 		try wget -4 https://unofficial-builds.nodejs.org/download/release/v${armVer}/node-v${armVer}-linux-armv6l.tar.gz
